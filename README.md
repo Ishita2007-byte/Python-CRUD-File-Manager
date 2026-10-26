@@ -17,7 +17,8 @@ try:
   else:
     print("error invalid choice")
 except Exception as err:
-  print("an exception has occured as:",err)                                                                from pathlib import Path
+  print("an exception has occured as:",err)                                                                
+from pathlib import Path
 import os
 def createfile():
   try:
@@ -43,7 +44,8 @@ def readfile():
     else:
       print("error: file does not exist")
   except Exception as err:
-    print("an exception has occured as: ",err)                                                            def updatefile():
+    print("an exception has occured as: ",err)                                                           
+  def updatefile():
   try:
     name=input("please enter name of the file you want to update: ")
     path=Path(name)
@@ -55,7 +57,8 @@ def readfile():
     else:
       print("error: file does not exist")
   except Exception as err:
-    print("an exception has occured as: ",err)                                                             def deletefile():
+    print("an exception has occured as: ",err)                                                             
+  def deletefile():
   try:
     name=input("please enter name of the file you want to delete: ")
     path=Path(name)
